@@ -1,0 +1,62 @@
+/*
+Copyright (c) 2021 Codiesalert.com
+These scripts should be used for commercial purpose without Codies Alert Permission
+Any violations may lead to legal action
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+body{
+    background-color: black;
+}
+
+/*Style Wallet Page*/
+.wallet-container{
+    background-image: linear-gradient(to right, rgb(0, 89, 255) , rgb(225, 0, 255));
+    margin: 8em 5em 0em 5em;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.wallet-container h1{
+    color:whitesmoke;
+    text-align:center;
+    font-size: 2.3em;
+    padding:1em 1em 0 1em;
+    margin-right: 3em;
+}
+
+#form{
+    margin-left: 8em;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form input:focus{
+    box-shadow: 0 0 2em #8df3eb;
+  }
+
+#form input{
+    background-image: linear-gradient(to right, rgb(255, 0, 221) ,rgb(76, 0, 255));
+    border-radius: 1em;
+    padding: 1em;
+    width: 70vw;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Send Button Style*/
+#form input[type=submit]{
+    width:20vw;
+    background-image: linear-gradient(to right, rgb(0, 255, 234),rgb(255, 0, 221));
+    margin-left: 25em;
+    font-size: 1em;
+}
