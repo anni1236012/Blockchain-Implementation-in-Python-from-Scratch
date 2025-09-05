@@ -1,6 +1,19 @@
 # Fully functional Bitcoin-inspired blockchain in Python
-Implemented a fully functional blockchain with wallet functionality, cryptographic signing, consensus, multiprocessing, P2P networking, memory pool, conflict resolution b/w the miners, transaction validation and more.
-Elliptic Curve cryptography has been implemented from scratch, you can ignore ECC, if you're not confortable with complex mathematical equations. 
+This project is a from-scratch implementation of a fully functional blockchain in Python, built to explore the inner workings of Bitcoin. It includes:
+
+🪙 Wallet functionality (key generation & management)
+
+🔐 Elliptic Curve Cryptography (ECC) implemented from scratch for public/private keys & transaction signing
+
+📜 Transaction validation and memory pool management
+
+⛏️ Mining & consensus with conflict resolution between miners
+
+🔄 Peer-to-peer networking for node communication & block propagation
+
+⚡ Multiprocessing to utilize all CPU cores for mining and validation
+
+⚠️ Note: ECC involves advanced math — feel free to skip that part if you’re just exploring the blockchain basics.
 
 ![image](https://user-images.githubusercontent.com/86418669/179878631-d2f3dde8-56f4-46a3-acb5-3d07183b7afa.png)
 
